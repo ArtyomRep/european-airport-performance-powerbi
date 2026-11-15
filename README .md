@@ -1,11 +1,9 @@
 # European Airport Performance
 
 ## About the project
-The visualization was made to turn several separate airport performance datasets into one clear view. It brings together traffic, delays, delay causes, and additional approach and taxi-out time, so that patterns can be compared across years, countries and airports. The report is intended to show where delays are concentrated and whether performance has returned to the 2019 baseline.
+This Power BI project explores airport delays and operational performance in Europe, using data for 2019 and 2022–2025. It brings together traffic volumes, delay reasons, and additional approach and taxi-out time to compare airports and countries, identify monthly patterns, and examine changes in delay per flight compared with 2019.
 
-This Power BI project looks at airport delays and operational performance in Europe, using data for 2019 and 2022–2025. The aim is to compare airports and countries, explore monthly patterns and see how delay per flight differs from the 2019 baseline.
-
-Airport performance offers more to explore than a ranking of total delays. Looking at traffic volumes, delay per flight and additional approach and taxi-out time together gives a broader picture of the differences between airports. This is the focus of the report.
+The focus is on looking beyond total delay figures. Comparing several indicators gives a broader picture of airport performance than ranking airports by delay alone.
 
 ## Data
 
@@ -20,10 +18,10 @@ The datasets are connected through shared airport and date tables, with a separa
 - **Airport scorecard** combines an airport scatter chart with a country-to-airport matrix, including changes in delay per flight compared with 2019.
 
 ## Key findings
-- The main monthly pattern in delays or additional taxi-out time.
-- The largest contributor to delay among the recorded causes.
-- A notable difference between airports or countries.
-- How delay per flight changed compared with 2019.
+- In 2025, additional taxi-out time peaked in July at 4.34 minutes per flight, with elevated values in the surrounding summer months.
+- Weather was the largest recorded contributor to airport arrival ATFM delay in 2025, accounting for approximately 3.3 million minutes. Aerodrome capacity and ATC capacity followed, at approximately 1.7 million and 1.6 million minutes respectively.
+- Poland and Italy were selected as examples from different parts of Europe to illustrate contrasts between performance indicators. In 2025, Poland recorded higher arrival ATFM delay per flight than Italy (0.48 versus 0.29 minutes), while Italy had higher additional taxi-out time (4.6 versus 3.1 minutes).
+- In 2025, airport arrival ATFM delay averaged 0.81 minutes per flight, compared with 0.86 minutes in 2019—a reduction of approximately 0.05 minutes per flight.
 
 ## Notes on the results
 
@@ -32,3 +30,5 @@ The delay figures cover airport arrival ATFM delays, not all delays experienced 
 Comparisons with 2019 reflect the selected period. If several years are selected, the comparison is for that selection, not just the latest year. The scorecard uses a minimum of 25,000 arrivals within the selected period.
 
 Percentage changes can look very large when the 2019 value was close to zero. For this reason, the matrix leaves the percentage blank when the baseline is below 0.1 minute per flight, while still showing the change in minutes where data is available. Other blank results indicate missing data, not zero.
+
+Time values are expressed in decimal minutes; for example, 0.48 minutes is approximately 29 seconds, while 4.6 minutes is 4 minutes 36 seconds.
