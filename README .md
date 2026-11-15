@@ -1,6 +1,7 @@
 # European Airport Performance
 
 ## About the project
+The visualization was made to turn several separate airport performance datasets into one clear view. It brings together traffic, delays, delay causes, and additional approach and taxi-out time, so that patterns can be compared across years, countries and airports. The report is intended to show where delays are concentrated and whether performance has returned to the 2019 baseline.
 
 This Power BI project looks at airport delays and operational performance in Europe, using data for 2019 and 2022–2025. The aim is to compare airports and countries, explore monthly patterns and see how delay per flight differs from the 2019 baseline.
 
@@ -17,6 +18,12 @@ The datasets are connected through shared airport and date tables, with a separa
 - **Overview** brings together traffic volumes, delays, monthly trends and delay reasons, alongside airport and country rankings.
 - **Approach** compares additional approach and taxi-out time across months and airports.
 - **Airport scorecard** combines an airport scatter chart with a country-to-airport matrix, including changes in delay per flight compared with 2019.
+
+## Key findings
+- The main monthly pattern in delays or additional taxi-out time.
+- The largest contributor to delay among the recorded causes.
+- A notable difference between airports or countries.
+- How delay per flight changed compared with 2019.
 
 ## Notes on the results
 
